@@ -1,5 +1,6 @@
 const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
+const { throwError } = require("rxjs");
 require('dotenv').config();
 
 const pool = mysql.createPool({
