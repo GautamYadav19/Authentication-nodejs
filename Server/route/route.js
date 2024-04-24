@@ -1,7 +1,7 @@
 const express = require("express");
 const { async } = require("rxjs");
 // const { async } = require("rxjs");
-const db = require("../DB");
+const db = require("../DB/db");
 const router = express.Router();
 
 router.post("/login", async function (req, res, next) {
