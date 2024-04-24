@@ -2,12 +2,12 @@ const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
 
 const pool = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "mysql@123",
-    database: "mydatabase",
+    host: "mysql-db7f0b8-gautamyadav1992002-86ff.d.aivencloud.com",
+    user: "avnadmin",
+    password: "AVNS_zGcvUwQvuo4ajQUSjOk",
+    database: "mydb",
     connectionLimit: 10,
-    port: 3306,
+    port: 28220,
   });
   let rootdb = {};
   
