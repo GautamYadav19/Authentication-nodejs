@@ -11,7 +11,7 @@ app.use(
 );
 app.use(cors());
 app.use(express.json());
-app.use("/api",route);
+app.use("/",route);
 app.listen(process.env.PORT || "3000", () => {
   console.log(`server is running on port ${process.env.PORT || "3000"}`);
 });
