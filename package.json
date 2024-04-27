@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon index.js",
-    "dev": "npx nodemon index.js -w server"
+    "dev": " nodemon index.js -w server"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +18,7 @@
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
     "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
     "rxjs": "^7.8.1"
   }
 }

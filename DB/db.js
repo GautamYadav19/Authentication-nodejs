@@ -3,13 +3,14 @@ const jwt = require("jsonwebtoken");
 const { throwError } = require("rxjs");
 require('dotenv').config();
 
+
 const pool = mysql.createPool({
-  host: process.env.MYSQL_HOST,
-  user: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASSWORD,
-  database: process.env.MYSQL_DATABASE,
+  host:"mysql-db7f0b8-gautamyadav1992002-86ff.d.aivencloud.com",
+  user:"avnadmin",
+  password: "AVNS_zGcvUwQvuo4ajQUSjOk",
+  database: "mydb",
   connectionLimit: 10,
-  port: process.env.MYSQL_PORT
+  port:28220
   });
   let rootdb = {};
   
